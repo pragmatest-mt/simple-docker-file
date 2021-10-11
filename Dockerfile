@@ -1,9 +1,6 @@
+FROM nginx:latest
 ARG name=Andrea
 ARG surname=Mangion
-
-FROM nginx:latest
-ARG name
-ARG surname
 
 WORKDIR /my-work-dir
 
